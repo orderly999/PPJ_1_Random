@@ -31,7 +31,7 @@ public class Main {
 	// wypisz liczbe wystapien kazdej wartosci.
 	for(int i = 0; i < liczbaWystapien.length; i++)
 	{		
-		System.out.println("Liczba wyst¹pieñ liczby "+ i +": " + liczbaWystapien[i]);
+		System.out.println("Liczba wystÂ¹pieÃ± liczby "+ i +": " + liczbaWystapien[i]);
 	}
 		
 	// wypisz najmniejsza wartosc z tablicy	
@@ -84,7 +84,7 @@ public class Main {
 	            for (int i = 0; i < dlugosc - 1; i++) 
 	            {
 	                j = i + 1;
-	                if (tablica[i] > tablica[j])
+	                if (tablica[i] < tablica[j])
 	                {
 	                	swapNumbers(i, j, tablica);
 	                }
